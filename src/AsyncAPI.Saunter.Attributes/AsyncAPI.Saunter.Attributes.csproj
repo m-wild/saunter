@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>AysncAPI.Saunter.Attributes</PackageId>
+    <Title>AysncAPI.Saunter.Attributes</Title>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Description>Provides the raw attributes which can be used to decorate code as being async api functions</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Saunter.Tests" />
+  </ItemGroup>
+
+</Project>

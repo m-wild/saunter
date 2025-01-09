@@ -59,8 +59,12 @@
     </None>
   </ItemGroup>
 
-    <ItemGroup>
-        <InternalsVisibleTo Include="Saunter.Tests"/>
-    </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AsyncAPI.Saunter.Attributes\AsyncAPI.Saunter.Attributes.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Saunter.Tests"/>
+  </ItemGroup>
     
 </Project>
